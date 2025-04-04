@@ -1,0 +1,25 @@
+04-04-2025 12:14:24.04 - INFO - Started validation of input parameters...
+04-04-2025 12:14:24.04 - INFO - Completed validation of input parameters
+04-04-2025 12:14:24.04 - INFO - Started handling of duplicates... Method: "AUTO"
+04-04-2025 12:14:24.05 - DEBUG - 0 missing values found
+04-04-2025 12:14:24.05 - INFO - Completed handling of duplicates in 0.007353 seconds
+04-04-2025 12:14:24.05 - INFO - Started handling of missing values...
+04-04-2025 12:14:24.05 - INFO - Found a total of 2 missing value(s)
+04-04-2025 12:14:24.05 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+04-04-2025 12:14:24.08 - DEBUG - LINREG imputation of 1 value(s) succeeded for feature "numeric_col"
+04-04-2025 12:14:24.09 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+04-04-2025 12:14:24.10 - DEBUG - KNN imputation of 1 value(s) succeeded for feature "categorical_col"
+04-04-2025 12:14:24.10 - INFO - Completed handling of missing values in 0.046758 seconds
+04-04-2025 12:14:24.10 - INFO - Started handling of outliers... Method: "WINZ"
+04-04-2025 12:14:24.10 - DEBUG - Outlier imputation of 1 value(s) succeeded for feature "numeric_col"
+04-04-2025 12:14:24.10 - INFO - Completed handling of outliers in 0.003818 seconds
+04-04-2025 12:14:24.11 - INFO - Started conversion of DATETIME features... Granularity: s
+04-04-2025 12:14:24.11 - INFO - Completed conversion of DATETIME features in 0.0031 seconds
+04-04-2025 12:14:24.11 - INFO - Started encoding categorical features... Method: "AUTO"
+04-04-2025 12:14:24.12 - DEBUG - Encoding to ONEHOT succeeded for feature "categorical_col"
+04-04-2025 12:14:24.12 - INFO - Completed encoding of categorical features in 0.006478 seconds
+04-04-2025 12:14:24.12 - INFO - Started feature type conversion...
+04-04-2025 12:14:24.12 - DEBUG - Conversion to type INT succeeded for feature "numeric_col"
+04-04-2025 12:14:24.12 - DEBUG - Conversion to type INT succeeded for feature "duplicate_col"
+04-04-2025 12:14:24.12 - INFO - Completed feature type conversion for 2 feature(s) in 0.002959 seconds
+04-04-2025 12:14:24.12 - INFO - AutoClean process completed in 0.081647 seconds
